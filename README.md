@@ -6,7 +6,7 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 ### Links
 
 - Live Site URL: https://abdalmjeds2000.github.io/Testimonials-grid-section/
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: https://www.frontendmentor.io/solutions/testimonials-grid-section-5NCDbDDW3
 
 
 ### The challenge
@@ -23,4 +23,4 @@ Users should be able to:
 
 
 ### What I learned
-CSS Grid System.
+- CSS Grid System
