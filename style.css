@@ -1,0 +1,254 @@
+body {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  background-color: hsl(210, 46%, 95%);
+  margin: 0 auto;
+}
+.attribution{
+  text-align: center;
+  font-size: medium;
+  margin-bottom: 40px;
+}
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr 1fr;
+  gap: 2rem;
+  padding: 11% 11%;
+}
+
+
+.testimonial-violet{
+  background-color: hsl(263, 55%, 52%);
+  color: #fff;
+}
+.testimonial-gray {
+  background-color: hsl(217, 19%, 35%);
+  color: #fff;
+}
+.testimonial-light {
+  background-color: #fff;
+}
+.testimonial-dark {
+  background-color: hsl(219, 29%, 14%);
+  color: #fff;
+}
+
+
+
+.testimonial {
+  padding: 25px 30px;
+  border-radius: 10px;
+  box-shadow: #00000025 10px 10px 40px;
+}
+
+.testimonial-1 {
+  grid-column: 1 / 3;
+  grid-row: 1 / 2;
+  background-image: url('./images/bg-pattern-quotation.svg');
+  background-repeat: no-repeat;
+  background-position: 80% 0%;
+}
+.testimonial-2 {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+}
+.testimonial-3 {
+  grid-column: 1 / 2;
+  
+}
+.testimonial-4 {
+  grid-column: 2 / 4;
+  
+}
+.testimonial-5 {
+  grid-column: 4 / 5;
+  grid-row: 1 / 3;
+}
+
+
+.personInformation {
+  height: 50px;
+}
+.photo {
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+.photo img {
+  width: 35px;
+  border-radius: 50%;
+  border: 3px solid #ffffff25;
+}
+.name {
+  margin-left: 55px;
+}
+.name h4 {
+  line-height: 20px;
+  margin: 0;
+  padding: 0;
+  font-size: .85rem;
+}
+.name p {
+  margin: 0;
+  padding: 0;
+  line-height: 15px;
+  font-size: .75rem;
+  opacity: .6;
+}
+
+.mainText {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.secondText {
+  opacity: .6;
+  font-size: .85rem;
+  line-height: 20px;
+  margin-bottom: 0;
+}
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr 1fr;
+  gap: 2rem;
+  padding: 11% 11%;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 300px) {
+  .container {
+    max-width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+    padding: 11% 5%;
+  }
+  .testimonial-1, .testimonial-2, .testimonial-3, .testimonial-4, .testimonial-5 {
+    grid-column: 1 / span all;
+    grid-row: auto;
+  }
+}
+
+
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 600px) {
+  .container {
+    max-width: 768px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+    padding: 11% 5%;
+  }
+  .testimonial-1 {
+    grid-column: 1 / span all;
+    grid-row: 1 / 2;
+  }
+  .testimonial-2 {
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+  }
+  .testimonial-3 {
+    grid-column: 3 / span all;
+    grid-row: 2 / 3;
+  }
+  .testimonial-4 {
+    grid-column: 1 / 3;
+    grid-row: 3 / 5;
+    
+  }
+  .testimonial-5 {
+    grid-column: 3 / span all;
+    grid-row: 3 / 5;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .container {
+    max-width: 992px;
+    gap: 1.5rem;
+    padding: 11% 7%;
+  }
+  .testimonial-1 {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    background-image: url('./images/bg-pattern-quotation.svg');
+    background-repeat: no-repeat;
+    background-position: 80% 0%;
+  }
+  .testimonial-2 {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+  }
+  .testimonial-3 {
+    grid-column: 1 / 2;
+    
+  }
+  .testimonial-4 {
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+  }
+  .testimonial-5 {
+    grid-column: 4 / 5;
+    grid-row: 1 / 3;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr;
+    gap: 2rem;
+    padding: 11% 11%;
+  }
+  .testimonial-1 {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    background-image: url('./images/bg-pattern-quotation.svg');
+    background-repeat: no-repeat;
+    background-position: 80% 0%;
+  }
+  .testimonial-2 {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+  }
+  .testimonial-3 {
+    grid-column: 1 / 2;
+    
+  }
+  .testimonial-4 {
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+  }
+  .testimonial-5 {
+    grid-column: 4 / 5;
+    grid-row: 1 / 3;
+  }
+
+}
